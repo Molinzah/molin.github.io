@@ -1,0 +1,45 @@
+body {
+  position: relative;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  background: rgba(0, 0, 0, 0.1);
+  transform: rotate(-30deg) skew(25deg) scale(0.8);
+  transition: 0.5s;
+}
+.card img {
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+}
+.card:hover img:nth-child(4) {
+  transform: translate(160px, -160px);
+  opacity: 1;
+}
+.card:hover img:nth-child(3) {
+  transform: translate(120px, -120px);
+  opacity: 0.8;
+}
+.card:hover img:nth-child(2) {
+  transform: translate(80px, -80px);
+  opacity: 0.6;
+}
+.card:hover img:nth-child(1) {
+  transform: translate(40px, -40px);
+  opacity: 0.4;
+}
